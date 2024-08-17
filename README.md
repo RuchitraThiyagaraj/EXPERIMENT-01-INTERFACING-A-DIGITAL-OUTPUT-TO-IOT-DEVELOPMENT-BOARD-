@@ -1,8 +1,7 @@
-###  DATE: 
-
-###  NAME: 
-###  ROLL NO :
-###  DEPARTMENT: 
+###  DATE: 17-08-24
+###  NAME: T.RUCHITRA
+###  ROLL NO :212223110043
+###  DEPARTMENT: BE CSE IOT
 
 
 
@@ -89,7 +88,7 @@ The main features of LPC2148 include the following.
 ~~~
   while (1)
   {
-	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_RESET);
+    HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_RESET);
     HAL_Delay(2000);
     HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_SET);
     HAL_Delay(2000);
